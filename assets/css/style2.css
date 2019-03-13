@@ -1,6 +1,19 @@
 body, html {
     height: 100%;
-    display: inline-block;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.btn {
+    margin: 2px;
 }
 
 .brand-logo {
@@ -11,16 +24,14 @@ body, html {
     margin-top: 100px;
 }
 
-.nav-link {
+footer {
+    padding: 7.5em;
+}
+
+/* .nav-link {
     border-bottom: white solid 3px;
 }
 
 .nav-link:hover {
     border-bottom: black solid 3px;
-}
-
-@media only screen and (max-device-width: 1366px) {
-    .parallax {
-        background-attachment: scroll;
-    }
-}
+} */
