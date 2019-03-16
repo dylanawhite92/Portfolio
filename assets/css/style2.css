@@ -13,6 +13,14 @@ body {
     color: #000000;
 }
 
+.tech-logo {
+    width: 12%;
+}
+
+.project-image {
+    filter: brightness(80%)
+}
+
 main {
     flex: 1 0 auto;
 }
