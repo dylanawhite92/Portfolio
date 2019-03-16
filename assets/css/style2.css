@@ -1,24 +1,38 @@
 body, html {
     height: 100%;
-    color: #FBBAAA;
-    /* background: url("../images/bg.png");
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat; */
+    font-family: 'Bitter', serif;
+    font-weight: lighter;
+    background-color: #52528C;
+    color: #C2E7D9;
+}
+
+.card, .about-text, .btn {
+    font-family: 'Roboto', sans-serif;
+}
+
+.card, .btn:hover {
+    color: #000000
+}
+
+.btn {
+    background-color: #372554;
+}
+
+.btn:hover {
+    background-color: #C2E7D9;
 }
 
 #header {
-    /* margin-top: 7em; */
-    background-color: #9F574E;
     padding: 1em;
 }
 
-.port-heading {
-    height: 50vh;
+h1, h4 {
+    margin-bottom: 1.5em;
 }
 
-.card {
-    background-color: #9F574E;
+.port-heading {
+    height: 25vh;
+    padding: 25vh;
 }
 
 body {
@@ -42,10 +56,6 @@ body {
 
 main {
     flex: 1 0 auto;
-}
-
-.btn {
-    margin: 2px;
 }
 
 .brand-logo {

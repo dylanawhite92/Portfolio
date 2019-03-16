@@ -1,414 +1,667 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <title>Dylan White | Full Stack Web Developer</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Material Icons -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!-- Font Awesome Icons -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <!-- Materialize CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="./assets/images/castle.png" sizes="32x32"/>
-  <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style2.css"/>
+  <head>
+    <title>Dylan White | Full Stack Web Developer</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Material Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <!-- Materialize CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Bitter|Roboto"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="./assets/images/castle.png"
+      sizes="32x32"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./assets/css/style2.css"
+    />
   </head>
 
-<body>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav class="transparent">
+        <div class="nav-wrapper">
+          <a href="#header" class="brand-logo truncate"
+            >Dylan White</a
+          >
 
-  <header>
-    <!-- Navbar -->
-    <nav class="grey darken-4">
-      <div class="nav-wrapper">
-        <a href="#header" class="brand-logo truncate">Dylan White</a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#projects">Portfolio</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
-        <ul class="right hide-on-med-and-down">
-          <li><a href="#projects">Portfolio</a></li>
-          <li><a href="#about">About Me</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
-  </header>
-  
-  <main>
-
-    <!-- Body Content-->
-    <!-- <div class="container"> -->
+    <main>
+      <!-- Body Content-->
       <section id="header">
         <div class="row">
-          <div class="col m6 s12">
-            <img class="materialboxed" width="80%" src="./assets/images/self.jpg">
+          <div class="col m5 s12">
+            <img
+              class="materialboxed animated fadeIn"
+              width="100%"
+              src="./assets/images/self.jpg"
+            />
 
             <h6 class="left-align">
               I'm pictured here with my long lost father, Bigfoot.
             </h6>
           </div>
-          <div class="col m5 s12">
+          <div class="col m7 s12">
             <h1 class="animated bounceInRight">
               Hello, my name is Dylan!
             </h1>
 
-            <h3>
-              I'm a Full Stack Web Developer, and a 2019 graduate of Northwestern University's Full Stack Coding Boot Camp.
-            </h3>
+            <h4>
+              I'm a Full Stack Web Developer, and a 2019 graduate of
+              Northwestern University's Full Stack Coding Boot Camp.
+            </h4>
 
-            <a class="waves-effect waves-light btn" href="#projects">My Work</a>
-            <a class="waves-effect waves-light btn" href="#about">About Me</a>
+            <div class="center-align">
+              <a class="waves-effect waves-light large-btn btn" href="#projects"
+                >Check Out My Work</a
+              >
+            </div>
           </div>
-        </div>      
+        </div>
       </section>
-      
+
+      <div class="row">
+        <div class="col s12 center-align port-heading">
+          <h2>Portfolio</h2>
+        </div>
+      </div>
+
       <!-- Portfolio Links -->
       <section id="projects" class="scrollspy">
         <div class="row">
-          <div class="col s12 center-align port-heading">
-            <h2>Portfolio</h2>
-            <h5>Below you can find some of the projects I've worked on.</h5>
-          </div>
+          <div class="container project-container">
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="assets/images/screenshots/vorpal.png"
+                    class="project-image"
+                    alt="Vorpal"
+                  />
+                  <span class="card-title">Vorpal</span>
+                </div>
+                <div class="card-content">
+                  <p>
+                    A full-stack app to be used for people who run Dungeons and
+                    Dragons (5E) games. Currently it is just a Magic Item Shop
+                    Generator, but future developments will host a whole suite
+                    of tools for Dungeon Masters. This project was built using
+                    Bootstrap, MongoDB, Node.js/Express.js, JavaScript, and
+                    jQuery.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="https://vorpaltools.herokuapp.com/" target="_blank"
+                    >Check it Out</a
+                  >
+                </div>
+              </div>
+            </div>
 
-          <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image">
-                <img src="assets/images/screenshots/vorpal.png" class="project-image" alt="Vorpal">
-                <span class="card-title">Vorpal</span>
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="assets/images/screenshots/collab.gif"
+                    class="project-image"
+                    alt="Collab"
+                  />
+                  <span class="card-title">Collab</span>
+                </div>
+                <div class="card-content">
+                  <p>
+                    A 5 person team effort built using React.js,
+                    Node.js/Express.js, Firebase, ES6, and MongoDB. This app is
+                    a platform for musicians to find each other and connect with
+                    each other for future collaborations, or show off their
+                    work. My primary role involved handling file upload and
+                    capturing form data using MongoDB and Firebase. I also
+                    handled some of the front end styling for the forms page.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="https://appcollab.herokuapp.com/" target="_blank"
+                    >Check it Out</a
+                  >
+                </div>
               </div>
-              <div class="card-content">
-                <p>
-                  A full-stack app to be used for people who run Dungeons and Dragons (5E) games. 
-                  Currently it is just a Magic Item Shop Generator, but future developments will host a whole suite of tools for Dungeon Masters.
-                  This project was built using Bootstrap, MongoDB, Node.js/Express.js, JavaScript, and jQuery.
-                </p>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="assets/images/screenshots/dreamteam.png"
+                    class="project-image"
+                    alt="Dream Team Manager"
+                  />
+                  <span class="card-title">Dream Team Manager</span>
+                </div>
+                <div class="card-content">
+                  <p>
+                    I worked primarily as a front end developer on a 5 person
+                    team to bring this Fantasy Basketball Team Manager to
+                    fruition. It is for people who want to imagine things from
+                    the perspective of a coach. It was built with MySQL,
+                    Materialize, Node.js/Express.js, JavaScript/jQuery, and the
+                    animation library of Animate.css. I handled the CSS stylings
+                    and layout of the pages, drag and drop functionality, and
+                    connecting the salary cap slider to the Your Salary and
+                    Luxury Tax divs to dynamically render using Regex.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a
+                    href="https://glacial-tor-95458.herokuapp.com/"
+                    target="_blank"
+                    >Check it Out</a
+                  >
+                </div>
               </div>
-              <div class="card-action">
-                <a href="https://vorpaltools.herokuapp.com/" target="_blank">Check it Out</a>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="assets/images/screenshots/calculator.png"
+                    class="project-image"
+                    alt="React Calculator"
+                  />
+                  <span class="card-title">React Calculator</span>
+                </div>
+                <div class="card-content">
+                  <p>
+                    A simple arithmetic operator calculator built with React.js,
+                    styled to look like an iPhone calculator.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a
+                    href="https://narwhalnancy.github.io/react-calculator/"
+                    target="_blank"
+                    >Check it Out</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="assets/images/screenshots/ccrh.png"
+                    class="project-image"
+                    alt="Chicago Coding Resource Hub"
+                  />
+                  <span class="card-title">Chicago Coding Resource Hub</span>
+                </div>
+                <div class="card-content">
+                  <p>
+                    A smaller team project (3 people) that aimed to serve as a
+                    hub of resources for those interested in the Chicago tech
+                    scene. Users can browse educational articles from the Khan
+                    Academy API, job listings from the Github Jobs API, events
+                    from the Eventbrite API, or submit their own listings to
+                    these feeds. It was built using Firebase, JavaScript/jQuery,
+                    and Bootstrap.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a
+                    href="https://narwhalnancy.github.io/Group-Project-1/"
+                    target="_blank"
+                    >Check it Out</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="assets/images/screenshots/scraper.png"
+                    class="project-image"
+                    alt="News Scraper"
+                  />
+                  <span class="card-title">News Scraper</span>
+                </div>
+                <div class="card-content">
+                  <p>
+                    Description
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a
+                    href="https://pure-sands-75810.herokuapp.com/"
+                    target="_blank"
+                    >Check it Out</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="assets/images/screenshots/bamazon.png"
+                    class="project-image"
+                    alt="Bamazon"
+                  />
+                  <span class="card-title">Bamazon</span>
+                </div>
+                <div class="card-content">
+                  <p>
+                    Bamazon - a Node.js/mySQL CLI app.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a
+                    href="https://github.com/narwhalnancy/Bamazon"
+                    target="_blank"
+                    >Check it Out</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="assets/images/screenshots/liri.png"
+                    class="project-image"
+                    alt="LIRI"
+                  />
+                  <span class="card-title">LIRI</span>
+                </div>
+                <div class="card-content">
+                  <p>
+                    Node.js CLI App Description
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a
+                    href="https://github.com/narwhalnancy/LIRI-node-app"
+                    target="_blank"
+                    >Check it Out</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="assets/images/screenshots/trains.png"
+                    class="project-image"
+                    alt="Train Scheduler"
+                  />
+                  <span class="card-title">Train Scheduler</span>
+                </div>
+                <div class="card-content">
+                  <p>
+                    Description
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a
+                    href="https://narwhalnancy.github.io/Train-Scheduler/"
+                    target="_blank"
+                    >Check it Out</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="assets/images/screenshots/giftastic.png"
+                    class="project-image"
+                    alt="Giftastic API Buttons"
+                  />
+                  <span class="card-title">Giftastic API Buttons</span>
+                </div>
+                <div class="card-content">
+                  <p>
+                    Description
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a
+                    href="https://narwhalnancy.github.io/Gif-Tastic/"
+                    target="_blank"
+                    >Check it Out</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="assets/images/screenshots/trivia.png"
+                    class="project-image"
+                    alt="Totally Trivial Trivia"
+                  />
+                  <span class="card-title">Totally Trivial Trivia</span>
+                </div>
+                <div class="card-content">
+                  <p>
+                    jQuery - description.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a
+                    href="https://narwhalnancy.github.io/TriviaGame/"
+                    target="_blank"
+                    >Check it Out</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="assets/images/screenshots/starwars.png"
+                    class="project-image"
+                    alt="Star Wars RPG"
+                  />
+                  <span class="card-title">Star Wars RPG</span>
+                </div>
+                <div class="card-content">
+                  <p>
+                    Battle as a Jedi Knight or a Sith Lord in this turn-based
+                    RPG made with vanilla JavaScript and Bootstrap 4. Choose
+                    your own character and strategize to determine how to
+                    survive every round.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a
+                    href="https://narwhalnancy.github.io/Star-Wars-RPG/"
+                    target="_blank"
+                    >Check it Out</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col s12 m4">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="assets/images/screenshots/letterguess.png"
+                    class="project-image"
+                    alt="Word Guess"
+                  />
+                  <span class="card-title">Guess the Letter</span>
+                </div>
+                <div class="card-content">
+                  <p>
+                    A fun little letter guessing game built with vanilla
+                    JavaScript that keeps track of keyboard inputs and resets
+                    itself when either the guesses run out, or when a user
+                    guesses the correct letter. Step right up for Parabini's
+                    Phantasmagorical Prognostication Playoff!
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a
+                    href="https://narwhalnancy.github.io/Psychic-Game/"
+                    target="_blank"
+                    >Check it Out</a
+                  >
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image">
-                <img src="assets/images/screenshots/collab.gif" class="project-image" alt="Collab">
-                <span class="card-title">Collab</span>
-              </div>
-              <div class="card-content">
-                <p>
-                  A 5 person team effort built using React.js, Node.js/Express.js, Firebase, ES6, and MongoDB. 
-                  This app is a platform for musicians to find each other and connect with each other for future collaborations, 
-                  or show off their work. My primary role involved handling file upload and capturing form data using MongoDB and Firebase.
-                  I also handled some of the front end styling for the forms page.
-                </p>
-              </div>
-              <div class="card-action">
-                <a href="https://appcollab.herokuapp.com/" target="_blank">Check it Out</a>
-              </div>
-            </div>
+          <div class="col s12 center-align">
+            <h3>
+              Technologies I use:
+            </h3>
+
+            <img
+              src="./assets/images/icons/git.png"
+              alt="Github"
+              class="tech-logo"
+            />
+            <img
+              src="./assets/images/icons/html.png"
+              alt="HTML5"
+              class="tech-logo"
+            />
+            <img
+              src="./assets/images/icons/css.png"
+              alt="CSS"
+              class="tech-logo"
+            />
+            <img
+              src="./assets/images/icons/bootstrap.png"
+              alt="Bootstrap"
+              class="tech-logo"
+            />
+            <img
+              src="./assets/images/icons/materialize.png"
+              alt="Materialize"
+              class="tech-logo"
+            />
+            <img
+              src="./assets/images/icons/js.png"
+              alt="JavaScript"
+              class="tech-logo"
+            />
+            <img
+              src="./assets/images/icons/jquery.png"
+              alt="jQuery"
+              class="tech-logo"
+            />
+            <img
+              src="./assets/images/icons/nodejs.png"
+              alt="Node.js"
+              class="tech-logo"
+            />
+            <img
+              src="./assets/images/icons/react.png"
+              alt="React.js"
+              class="tech-logo"
+            />
+            <img
+              src="./assets/images/icons/firebase.png"
+              alt="Firebase"
+              class="tech-logo"
+            />
+            <img
+              src="./assets/images/icons/mongo.png"
+              alt="MongoDB"
+              class="tech-logo"
+            />
+            <img
+              src="./assets/images/icons/mysql.png"
+              alt="MySQL"
+              class="tech-logo"
+            />
+            <img
+              src="./assets/images/icons/python.png"
+              alt="Python"
+              class="tech-logo"
+            />
+            <img
+              src="./assets/images/icons/cplusplus.png"
+              alt="C++"
+              class="tech-logo"
+            />
           </div>
-
-          <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image">
-                <img src="assets/images/screenshots/dreamteam.png" class="project-image" alt="Dream Team Manager">
-                <span class="card-title">Dream Team Manager</span>
-              </div>
-              <div class="card-content">
-                <p>
-                  I worked primarily as a front end developer on a 5 person team to bring this Fantasy Basketball
-                  Team Manager to fruition. It is for people who want to imagine things from the perspective of a coach.
-                  It was built with MySQL, Materialize, Node.js/Express.js, JavaScript/jQuery, and the animation library of Animate.css. 
-                  I handled the CSS stylings and layout of the pages, drag and drop functionality, and connecting the salary cap slider
-                  to the Your Salary and Luxury Tax divs to dynamically render using Regex.
-                </p>
-              </div>
-              <div class="card-action">
-                <a href="https://glacial-tor-95458.herokuapp.com/" target="_blank">Check it Out</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image">
-                <img src="assets/images/screenshots/calculator.png" class="project-image" alt="React Calculator">
-                <span class="card-title">React Calculator</span>
-              </div>
-              <div class="card-content">
-                <p>
-                  A simple arithmetic operator calculator built with React.js, styled to look like an iPhone calculator.
-                </p>
-              </div>
-              <div class="card-action">
-                <a href="https://narwhalnancy.github.io/react-calculator/" target="_blank">Check it Out</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image">
-                <img src="assets/images/screenshots/ccrh.png" class="project-image" alt="Chicago Coding Resource Hub">
-                <span class="card-title">Chicago Coding Resource Hub</span>
-              </div>
-              <div class="card-content">
-                <p>
-                  A smaller team project (3 people) that aimed to serve as a hub of resources for those interested in the Chicago tech scene.
-                  Users can browse educational articles from the Khan Academy API, job listings from the Github Jobs API, events
-                  from the Eventbrite API, or submit their own listings to these feeds. It was built using Firebase, JavaScript/jQuery, and Bootstrap.
-                </p>
-              </div>
-              <div class="card-action">
-                <a href="https://narwhalnancy.github.io/Group-Project-1/" target="_blank">Check it Out</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image">
-                <img src="assets/images/screenshots/scraper.png" class="project-image" alt="News Scraper">
-                <span class="card-title">News Scraper</span>
-              </div>
-              <div class="card-content">
-                <p>
-                  Description
-                </p>
-              </div>
-              <div class="card-action">
-                <a href="https://pure-sands-75810.herokuapp.com/" target="_blank">Check it Out</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image">
-                <img src="assets/images/screenshots/bamazon.png" class="project-image" alt="Bamazon">
-                <span class="card-title">Bamazon</span>
-              </div>
-              <div class="card-content">
-                <p>
-                  Bamazon - a Node.js/mySQL CLI app.
-                </p>
-              </div>
-              <div class="card-action">
-                <a href="https://github.com/narwhalnancy/Bamazon" target="_blank">Check it Out</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image">
-                <img src="assets/images/screenshots/liri.png" class="project-image" alt="LIRI">
-                <span class="card-title">LIRI</span>
-              </div>
-              <div class="card-content">
-                <p>
-                  Node.js CLI App Description
-                </p>
-              </div>
-              <div class="card-action">
-                <a href="https://github.com/narwhalnancy/LIRI-node-app" target="_blank">Check it Out</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image">
-                <img src="assets/images/screenshots/trains.png" class="project-image" alt="Train Scheduler">
-                <span class="card-title">Train Scheduler</span>
-              </div>
-              <div class="card-content">
-                <p>
-                  Description
-                </p>
-              </div>
-              <div class="card-action">
-                <a href="https://narwhalnancy.github.io/Train-Scheduler/" target="_blank">Check it Out</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image">
-                <img src="assets/images/screenshots/giftastic.png" class="project-image" alt="Giftastic API Buttons">
-                <span class="card-title">Giftastic API Buttons</span>
-              </div>
-              <div class="card-content">
-                <p>
-                  Description
-                </p>
-              </div>
-              <div class="card-action">
-                <a href="https://narwhalnancy.github.io/Gif-Tastic/" target="_blank">Check it Out</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image">
-                <img src="assets/images/screenshots/trivia.png" class="project-image" alt="Totally Trivial Trivia">
-                <span class="card-title">Totally Trivial Trivia</span>
-              </div>
-              <div class="card-content">
-                <p>
-                  jQuery - description.
-                </p>
-              </div>
-              <div class="card-action">
-                <a href="https://narwhalnancy.github.io/TriviaGame/" target="_blank">Check it Out</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image">
-                <img src="assets/images/screenshots/starwars.png" class="project-image" alt="Star Wars RPG">
-                <span class="card-title">Star Wars RPG</span>
-              </div>
-              <div class="card-content">
-                <p>
-                  Battle as a Jedi Knight or a Sith Lord in this turn-based RPG made with vanilla JavaScript and Bootstrap 4. 
-                  Choose your own character and strategize to determine how to survive every round.
-                </p>
-              </div>
-              <div class="card-action">
-                <a href="https://narwhalnancy.github.io/Star-Wars-RPG/" target="_blank">Check it Out</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m4">
-            <div class="card">
-              <div class="card-image">
-                <img src="assets/images/screenshots/letterguess.png" class="project-image" alt="Word Guess">
-                <span class="card-title">Guess the Letter</span>
-              </div>
-              <div class="card-content">
-                <p>
-                  A fun little letter guessing game built with vanilla JavaScript that keeps track of keyboard inputs and resets itself
-                  when either the guesses run out, or when a user guesses the correct letter. Step right up for Parabini's Phantasmagorical Prognostication Playoff!
-                </p>
-              </div>
-              <div class="card-action">
-                <a href="https://narwhalnancy.github.io/Psychic-Game/" target="_blank">Check it Out</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col s12 center-align">
-          <h3>
-            Technologies I use:
-          </h3>
-
-          <img src="./assets/images/icons/git.png" alt="Github" class="tech-logo"/>
-          <img src="./assets/images/icons/html.png" alt="HTML5" class="tech-logo"/>
-          <img src="./assets/images/icons/css.png" alt="CSS" class="tech-logo"/>
-          <img src="./assets/images/icons/bootstrap.png" alt="Bootstrap" class="tech-logo"/>
-          <img src="./assets/images/icons/materialize.png" alt="Materialize" class="tech-logo"/>
-          <img src="./assets/images/icons/js.png" alt="JavaScript" class="tech-logo"/>
-          <img src="./assets/images/icons/jquery.png" alt="jQuery" class="tech-logo"/>
-          <img src="./assets/images/icons/nodejs.png" alt="Node.js" class="tech-logo"/>
-          <img src="./assets/images/icons/react.png" alt="React.js" class="tech-logo"/>
-          <img src="./assets/images/icons/firebase.png" alt="Firebase" class="tech-logo"/>
-          <img src="./assets/images/icons/mongo.png" alt="MongoDB" class="tech-logo"/>
-          <img src="./assets/images/icons/mysql.png" alt="MySQL" class="tech-logo"/>
-          <img src="./assets/images/icons/python.png" alt="Python" class="tech-logo"/>
-          <img src="./assets/images/icons/cplusplus.png" alt="C++" class="tech-logo"/>
         </div>
       </section>
 
-      <section id="about" class="scrollspy">
+      <div class="container">
+        <section id="about" class="scrollspy">
+          <div class="row">
+            <div class="col s12 center-align port-heading">
+              <h2>About Me</h2>
+            </div>
+
+            <div class="col s12 center-align about-text">
+              <p>
+                The most junior of baby web developers. I graduated Northwestern
+                University's Coding Boot Camp in February 2019. I have ~1 year
+                of experience of self-taught coding prior to attending the boot
+                camp, mostly in Python.
+                <br />
+                <br />
+                Most of my time spent in Python has been used to learn
+                foundational programming skills, data structures, and develop
+                simple games such as Tic Tac Toe, Yahtzee, a one-way version of
+                Pong, and more.
+                <br />
+                <br />
+                Since then, I've used the skills I've picked up over the course
+                of the boot camp to build more complex applications and I'm
+                picking up new tricks on a daily basis. I am currently available
+                for work and actively seeking a transition into the industry as
+                a developer.
+              </p>
+            </div>
+
+            <div class="col s12 center-align about-text">
+              <h5>
+                Boredom/stagnation has never been a known entity in my life.
+                When I'm not writing code, I have many hobbies that consume my
+                day-to-day. To name a few:
+              </h5>
+
+              <p>
+                <li>
+                  I play Dungeons and Dragons (on both sides of the screen)
+                  multiple times a week, and have played for over 15 years.
+                </li>
+                <li>
+                  I like to make music, mix audio, and am currently about to
+                  start recording a live play D&D podcast with my coworkers from
+                  Honey Butter Fried Chicken.
+                </li>
+                <li>
+                  I play many video games. I would say my top 3 games that I'm
+                  currently playing are: Final Fantasy XIV, The Legend of
+                  Dragoon (an oldie, but a goodie), and .
+                </li>
+                <li>
+                  I play guitar. I own a Fender Telecaster.
+                </li>
+                <li>
+                  I have a Bengal cat named Burger that I snagged through a
+                  friend for free! He's a 20 lb. monster who loves to ruin my
+                  life.
+                </li>
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact" class="scrollspy">
+          <div class="row">
+            <div class="col s12 center-align">
+              <h2>Contact</h2>
+            </div>
+
+            <div class="col s12 center-align">
+              <a
+                href="https://github.com/narwhalnancy"
+                target="_blank"
+                class="icon-link"
+                ><i class="fab fa-github-square fa-7x"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/dylan-white-031688153/"
+                target="_blank"
+                class="icon-link"
+                ><i class="fab fa-linkedin fa-7x"></i
+              ></a>
+              <a
+                href="mailto:dylanawhite11@gmail.com?Subject=Hello,%20Dylan"
+                class="icon-link"
+                ><i class="fas fa-envelope fa-7x"></i
+              ></a>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer grey darken-4">
+      <div class="container">
         <div class="row">
           <div class="col s12 center-align">
-            <h2>About Me</h2>
-          </div>
-
-          <div class="col s12 center-align">
-            <h5>
-              The most junior of baby web developers. I graduated Northwestern University's Coding Boot Camp in February 2019. 
-              I have ~3 years experience of self-taught coding prior to attending the boot camp, mostly in Python. 
-              <br>
-              <br>
-              Most of my time spent in Python has been used to learn foundational programming skills, data structures, and develop simple games such as Tic Tac Toe, Yahtzee, a one-way version of Pong, and more.
-              <br>
-              <br>
-              Since then, I've used the skills I've picked up over the course of the boot camp to build more complex applications and I'm picking up new tricks on a daily basis. 
-              I am currently available for work and actively seeking a transition into the industry as a developer.
-            </h5>
-          </div>
-
-          <div class="col s12 center-align">
-            <h5>
-              Boredom/stagnation has never been a known entity in my life. When I'm not writing code, I have many hobbies that consume my day-to-day. To name a few:
-            </h5>
-
-            <p>
-              <li>
-                I play Dungeons and Dragons (on both sides of the screen) multiple times a week, and have played for over 15 years.
-              </li>
-              <li>
-                I like to make music, mix audio, and am currently about to start recording a live play D&D podcast 
-                with my coworkers from Honey Butter Fried Chicken.
-              </li>
-              <li>
-                I play many video games. I would say my top 3 games that I'm 
-                currently playing are: Final Fantasy XIV, The Legend of Dragoon (an oldie, but a goodie), and .
-              </li>
-              <li>
-                I play guitar. I own a Fender Telecaster.
-              </li>
-              <li>
-                I have a Bengal cat named Burger that I snagged through a friend for free! He's a 20 lb. monster who loves to ruin my life.
-              </li>
+            <p class="grey-text text-lighten-4">
+              © 2019
+              <a
+                href="https://github.com/narwhalnancy"
+                target="_blank"
+                id="git-page"
+                >Dylan White</a
+              >
+            </p>
+            <p class="grey-text text-lighten-4">
+              This site was built with great tools like Visual Studio Code, Google Fonts, and
+              Materialize.
             </p>
           </div>
         </div>
-      </section>
-
-      <section id="contact" class="scrollspy">
-        <div class="row">
-          <div class="col s12 center-align">
-            <h2>Contact</h2>
-          </div>
-
-          <div class="col s12 center-align">
-            <a href="https://github.com/narwhalnancy" target="_blank" class="icon-link"><i class="fab fa-github-square fa-7x"></i></a>
-            <a href="https://www.linkedin.com/in/dylan-white-031688153/" target="_blank" class="icon-link"><i class="fab fa-linkedin fa-7x"></i></a>
-            <a href="mailto:dylanawhite11@gmail.com?Subject=Hello,%20Dylan" class="icon-link"><i class="fas fa-envelope fa-7x"></i></a>
-          </div>
-        </div>
-      </section>
-
-    <!-- </div> -->
-  </main>
-
-  <!-- Footer -->
-  <footer class="page-footer grey darken-4">
-    <div class="container">
-      <div class="row">
-        <div class="col s12 center-align">
-          <p class="grey-text text-lighten-4">© 2019 <a href="https://github.com/narwhalnancy" target="_blank" id="git-page">Dylan White</a></p>
-          <p class="grey-text text-lighten-4">This site was built with great tools like Visual Studio Code and Materialize.</p>
-        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- jQuery -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="./assets/js/main.js"></script>
-</body>
-
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
 </html>
