@@ -1,6 +1,24 @@
 body, html {
     height: 100%;
-    color: #A87372;
+    color: #FBBAAA;
+    /* background: url("../images/bg.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+#header {
+    /* margin-top: 7em; */
+    background-color: #9F574E;
+    padding: 1em;
+}
+
+.port-heading {
+    height: 50vh;
+}
+
+.card {
+    background-color: #9F574E;
 }
 
 body {
