@@ -10,11 +10,20 @@ body, html {
     font-family: 'Roboto', sans-serif;
 }
 
+.card, .teal-text:hover {
+    background-color: #52528C;
+    color: #C2E7D9!important;
+}
+
 .card, .btn:hover {
     color: #000000
 }
 
-.btn {
+.card-action {
+    color: #7C9EB2!important;
+}
+
+.btn, #projects {
     background-color: #372554;
 }
 
