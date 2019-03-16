@@ -12,7 +12,7 @@ body, html {
     font-family: 'Roboto', sans-serif;
 }
 
-.card, .teal-text:hover {
+.card, .teal-text:hover, .btn, .btn:focus {
     background-color: #52528C;
 }
 
@@ -28,7 +28,7 @@ body, html {
     color: #7C9EB2!important;
 }
 
-.btn, #projects {
+#projects {
     background-color: #372554;
 }
 
