@@ -26,11 +26,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.card, .teal-text:hover, .btn, .btn:focus {
+.card, .btn, .btn:focus {
     background-color: #52528C;
 }
 
-.card, .teal-text:hover, .icon-link {
+.card, .teal-text:hover, .icon-link, .page-footer {
     color: #C2E7D9!important;
 }
 
@@ -43,9 +43,12 @@ body {
 }
 
 #projects {
-    background-color: #372554;
     position: relative;
     z-index: 1;
+}
+
+#projects, .page-footer {
+    background-color: #372554;
 }
 
 /* Angled edges */
@@ -72,8 +75,6 @@ body {
     top: 0;
     transform: skewY(1.5deg);    
 }
-
-
 
 .btn:hover {
     background-color: #C2E7D9;
